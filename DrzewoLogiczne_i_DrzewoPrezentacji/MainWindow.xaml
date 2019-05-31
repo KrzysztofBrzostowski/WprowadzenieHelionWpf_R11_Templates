@@ -1,0 +1,38 @@
+﻿<Window x:Class="DrzewoLogiczne_i_DrzewoPrezentacji.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DrzewoLogiczne_i_DrzewoPrezentacji"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+<!-- Drzewo Logiczne - xaml:
+     View/Other Window/Document Outline
+ -->
+
+ <!--Debug/Windows/Live Visual Tree
+                  /Live Property Explorer
+ -->
+    
+ <!--Dodatkowo:
+     Enable selection in the running application
+ -->
+    
+ <!--Włączone:
+    Tools/Options/Debugging/General/Enable UI Debugging Tools for Xaml 
+ -->    
+ 
+    
+    <StackPanel>
+        <TextBlock Foreground="Red" Text="Wpisz wartosc" Margin="10"/>
+        <TextBox Text="100" Margin="10"/>
+        <Button Content="Przycisk" Margin="10"/>
+        <!--
+        <Button Content="Widmo">
+            <Button.Template>
+                <ControlTemplate></ControlTemplate>
+            </Button.Template>
+        </Button>-->
+        
+    </StackPanel>
+</Window>
